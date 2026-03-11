@@ -21,7 +21,7 @@
 PLATFORM = "xhs"  # Platform, xhs | dy | ks | bili | wb | tieba | zhihu
 KEYWORDS = "编程副业,编程兼职"  # Keyword search configuration, separated by English commas
 LOGIN_TYPE = "cookie"  # qrcode or phone or cookie
-COOKIES = "web_session=040069b5d52c19f9004bc55e853b4bd2119bc2"
+COOKIES = ""
 CRAWLER_TYPE = (
     "creator"  # Crawling type, search (keyword search) | detail (post details) | creator (creator homepage data)
 )
@@ -74,7 +74,7 @@ AUTO_CLOSE_BROWSER = True
 SAVE_DATA_OPTION = "jsonl"  # csv or db or json or jsonl or sqlite or excel or postgres
 
 # Data saving path, if not specified by default, it will be saved to the data folder.
-SAVE_DATA_PATH = "/home/ubuntu/workspace/social-miner/data"
+SAVE_DATA_PATH = ""
 
 # Browser file configuration cached by the user's browser
 USER_DATA_DIR = "%s_user_data_dir"  # %s will be replaced by platform name

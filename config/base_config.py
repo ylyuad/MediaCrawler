@@ -74,7 +74,7 @@ AUTO_CLOSE_BROWSER = True
 SAVE_DATA_OPTION = "jsonl"  # csv or db or json or jsonl or sqlite or excel or postgres
 
 # Data saving path, if not specified by default, it will be saved to the data folder.
-SAVE_DATA_PATH = ""
+SAVE_DATA_PATH = "/home/ubuntu/workspace/social-miner/data"
 
 # Browser file configuration cached by the user's browser
 USER_DATA_DIR = "%s_user_data_dir"  # %s will be replaced by platform name
